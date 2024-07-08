@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { WiThermometer } from "react-icons/wi";
-import { useGetCurrentWeatherQuery } from "../../services/WeatherAPI";
+import { useGetCurrentWeatherQuery } from "../../services/weatherApi";
 
 function FeelsLike() {
   //   Access to RTX Query cashed data

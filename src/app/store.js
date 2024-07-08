@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import searchSlice from "../features/search/searchSlice";
 import geolocationSlice from "../features/geolocation/geolocationSlice";
-import { weatherApi } from "../services/WeatherAPI";
+import { weatherApi } from "../services/weatherApi";
 import darkModeSlice from "../features/theme/themeSlice";
 
 export const store = configureStore({

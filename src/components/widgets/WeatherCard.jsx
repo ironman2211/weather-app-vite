@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { useGetCurrentWeatherQuery } from "../../services/WeatherAPI";
+import { useGetCurrentWeatherQuery } from "../../services/weatherApi";
 import WeatherIcon from "../common/WeatherIcon";
 import { TiLocationArrow } from "react-icons/ti";
 

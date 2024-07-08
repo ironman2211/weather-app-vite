@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { MdVisibility } from "react-icons/md";
-import { useGetCurrentWeatherQuery } from "../../services/WeatherAPI";
+import { useGetCurrentWeatherQuery } from "../../services/weatherApi";
 
 function Visibility() {
   //   Access to RTX Query cashed data

@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { FiWind } from "react-icons/fi";
-import { useGetCurrentWeatherQuery } from "../../services/WeatherAPI";
+import { useGetCurrentWeatherQuery } from "../../services/weatherApi";
 
 function Wind() {
   //   Access to RTX Query cashed data

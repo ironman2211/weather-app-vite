@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { WiHumidity } from "react-icons/wi";
-import { useGetCurrentWeatherQuery } from "../../services/WeatherAPI";
+import { useGetCurrentWeatherQuery } from "../../services/weatherApi";
 
 function Humidity() {
   //   Access to RTX Query cashed data

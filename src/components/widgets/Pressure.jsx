@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { WiBarometer } from "react-icons/wi";
-import { useGetCurrentWeatherQuery } from "../../services/WeatherAPI";
+import { useGetCurrentWeatherQuery } from "../../services/weatherApi";
 
 function Pressure() {
   //   Access to RTX Query cashed data
