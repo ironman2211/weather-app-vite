@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 import searchSlice from "../features/search/searchSlice";
 import geolocationSlice from "../features/geolocation/geolocationSlice";
-import { weatherApi } from "../services/weatherApi";
 import darkModeSlice from "../features/theme/themeSlice";
+import { weatherApi } from "../services/weatherApi.js"; // Ensure the path is correct
 
 export const store = configureStore({
   reducer: {
