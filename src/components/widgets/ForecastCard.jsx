@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { useGetForecastDailyQuery } from "../../services/weatherApi";
+import { useGetForecastDailyQuery } from "../../services/WeatherApi";
 import WeatherIcon from "../common/WeatherIcon";
 
 function ForecastCard() {
